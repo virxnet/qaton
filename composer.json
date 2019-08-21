@@ -1,0 +1,21 @@
+{
+    "name": "virx/qaton",
+    "description": "The Elemental PHP MVC System",
+    "type": "project",
+    "require": {
+		"php": ">=7.2",
+        "erusev/parsedown": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antony Peiris",
+            "email": "asp@virx.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VirX\\":"src/VirX"
+        }
+    }
+}
