@@ -108,7 +108,17 @@ h1, h2, h3, h4
 					
 					<br>
 					<br>
-					<a target="" href="#" class="btn btn-success btn-sm">Download Qaton</a>
+					<a target="_blank" href="https://github.com/virxnet/qaton/archive/master.zip" class="btn btn-success btn-sm">Download Qaton</a>
+					
+					<p>On the command line:</p>
+					
+					<kbd>
+						wget -O qaton.zip https://github.com/virxnet/qaton/archive/master.zip
+					</kbd>
+					
+					<kbd>
+						curl -o qaton.zip https://github.com/virxnet/qaton/archive/master.zip
+					</kbd>
 				</p>
 				
 				<h4>Git</h4>
@@ -120,7 +130,7 @@ h1, h2, h3, h4
 				</p>
 				<p>
 					<kbd>
-						git clone http://......................
+						git clone https://github.com/virxnet/qaton.git
 					</kbd>
 				</p>
 				
@@ -133,11 +143,23 @@ h1, h2, h3, h4
 					quite simple. Simply run the the following in the 
 					preferred directory:
 				</p>
+				
+				<small class="text-dim">Until a stable version is released, you need to specify the minimum stabilit</small>
+				
 				<p>
 					<kbd>
-						composer requrie ....................
+						composer create-project virx/qaton --stability dev
 					</kbd>
 				</p>
+				
+				<small class="text-dim">Otherwise use the following:</small>
+				
+				<p>
+					<kbd>
+						composer create-project virx/qaton
+					</kbd>
+				</p>
+				
 			</p>
 			
 			<h3 class="text-info" id="config">Configuration</h3>
