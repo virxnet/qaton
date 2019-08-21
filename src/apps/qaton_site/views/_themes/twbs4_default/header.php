@@ -19,7 +19,7 @@
 <body>
 		
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-		<a class="navbar-brand" href="#"><?php echo $lang_common_site_title ?></a> <button aria-controls="navbarsMainDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarsMainDefault" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+		<a class="navbar-brand" href="<?php echo BASE_URL ?>"><?php echo $lang_common_site_title ?></a> <button aria-controls="navbarsMainDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarsMainDefault" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 		<div class="collapse navbar-collapse" id="navbarsMainDefault">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
