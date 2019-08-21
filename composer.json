@@ -3,8 +3,7 @@
     "description": "The Elemental PHP MVC System",
     "type": "project",
     "require": {
-		"php": ">=7.2",
-        "erusev/parsedown": "^1.7"
+		"php": ">=7.2"
     },
     "license": "MIT",
     "authors": [
