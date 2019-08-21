@@ -110,11 +110,14 @@ h1, h2, h3, h4
 					<br>
 					<a target="_blank" href="https://github.com/virxnet/qaton/archive/master.zip" class="btn btn-success btn-sm">Download Qaton</a>
 					
-					<p>On the command line:</p>
+					<p>Or the command line:</p>
 					
 					<kbd>
 						wget -O qaton.zip https://github.com/virxnet/qaton/archive/master.zip
 					</kbd>
+					
+					<br><br>
+					<p>Or</p>
 					
 					<kbd>
 						curl -o qaton.zip https://github.com/virxnet/qaton/archive/master.zip
