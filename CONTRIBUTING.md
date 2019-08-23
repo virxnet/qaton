@@ -8,8 +8,8 @@ If you haven't already, please come find us on Reddit
 
 Here are some important resources:
 
-	- [Official Qaton Site](http://qaton.virx.net) 
-	- Qaton on GitHub](https://github.com/virxnet/qaton) 
+	* [Official Qaton Site](http://qaton.virx.net) 
+	* Qaton on GitHub](https://github.com/virxnet/qaton) 
 
 ## Testing
 
@@ -39,22 +39,22 @@ _Note: Your suggestions are welcome to improve our coding conventions.
 Our coding conventions have not yet been finalized yet as the project is 
 still brand new. We would like community feedback_
 
-	- We try to keep it as simple, neat and tidy as possible 
-	- Please adhere to PSR-4 
-	- Comply with Packagist conventions [About Packagist](https://packagist.org/about)
-	- Write clear descriptive comments
-	- Use camelCase for utility methods/functions only and underscores for controller/model method declarations
-	- Never use camelCase for variable names
-	- Do not use the closing PHP tag in any controllers or models
-	- We indent using tabs not spaces (length equal to 4 spaces)
-	- Avoid too much white space (a line or two for separation is sufficient)
-	- We avoid logic in views, themes and language files. All that belong in the controllers and models. 
-	- We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash arrows.
-	- Curly braces come on a new line after the method, function or class declaration
-	- Always use absolute paths using resources available through Qaton (no relative paths)
-	- Avoid adding new files to the Qaton system unless it's absolutely necessary. We want to keep the project small and tidy.
-	- Write comments to describe your methods and varables 
-	- There may be places where even we (or others) have accidentially not adhered to these conventions. Please bring such instances to our attention. 
+	* We try to keep it as simple, neat and tidy as possible 
+	* Please adhere to PSR-4 
+	* Comply with Packagist conventions [About Packagist](https://packagist.org/about)
+	* Write clear descriptive comments
+	* Use camelCase for utility methods/functions only and underscores for controller/model method declarations
+	* Never use camelCase for variable names
+	* Do not use the closing PHP tag in any controllers or models
+	* We indent using tabs not spaces (length equal to 4 spaces)
+	* Avoid too much white space (a line or two for separation is sufficient)
+	* We avoid logic in views, themes and language files. All that belong in the controllers and models. 
+	* We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash arrows.
+	* Curly braces come on a new line after the method, function or class declaration
+	* Always use absolute paths using resources available through Qaton (no relative paths)
+	* Avoid adding new files to the Qaton system unless it's absolutely necessary. We want to keep the project small and tidy.
+	* Write comments to describe your methods and varables 
+	* There may be places where even we (or others) have accidentially not adhered to these conventions. Please bring such instances to our attention. 
 	
 Please note that this document is still under construction as well.
 Your suggestions are greatly appreciated. 
