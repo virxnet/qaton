@@ -1,17 +1,39 @@
 <?php
 /***********************************************************************
  * 
- * Qaton - The Elemental PHP MVC System
+ * Qaton
  * 
- * Qaton is a minimal lightweight super-fast MVC system. Qaton aims to 
- * be a small and insignificant foundation for apps, but it is definitely
- * not another PHP framework (there are plenty of those out there). 
- * Qaton relies on pure PHP by default and can be easily extended. 
- * Flexible by design and armed with the absolute essentials such as 
- * routing, themes, multi-language etc...
- * 
- * @author Antony Peiris <asp@virx.net>
- * @license MIT 
+ * The Elemental PHP MVC System
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2019, VirX.Net Software Innovations Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	Qaton
+ * @author	Antony Peiris <asp@virx.net>
+ * @copyright	Copyright (c) 2019, VirX.Net Software Innovations Inc. (http://www.virx.net)
+ * @license	https://opensource.org/licenses/MIT	MIT License
+ * @link	https://qaton.virx.net
+ * @since	Version 0.0.1
+ * @filesource
  * 
  **********************************************************************/
 
@@ -21,5 +43,7 @@ require_once('../vendor/autoload.php');
 use VirX\Qaton\Page;
 use VirX\Qaton\Controller;
 new VirX\Qaton\Page();
+
+define('VERSION', '0.0.1');
 
 // End of file

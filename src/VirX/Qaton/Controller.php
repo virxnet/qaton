@@ -28,11 +28,11 @@
  * THE SOFTWARE.
  *
  * @package	Qaton
- * @author	Antony Peiris
+ * @author	Antony Peiris <asp@virx.net>
  * @copyright	Copyright (c) 2019, VirX.Net Software Innovations Inc. (http://www.virx.net)
  * @license	https://opensource.org/licenses/MIT	MIT License
  * @link	https://qaton.virx.net
- * @since	Version 1.0.0
+ * @since	Version 0.0.1
  * @filesource
  * 
  **********************************************************************/

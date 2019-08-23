@@ -23,5 +23,7 @@ it can be easily extended using resources such as Packagist and
 Composer instead. Qaton is also easy to use with any headless CMS 
 system.
 
+Qaton is released under the MIT license. 
+
 Official Qaton Website: [http://qaton.virx.net](http://qaton.virx.net 
 "Qaton Official Website") 
